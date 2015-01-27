@@ -1,4 +1,6 @@
-package classExercise;
+//package classExercise; //Change for Git
+package static_example;
+
 
 public class StudentInfoStatic {
 	public static int intStudentId;

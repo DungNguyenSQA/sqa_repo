@@ -1,4 +1,5 @@
-package homeExercise;
+//package homeExercise; //Change for Git
+package basiclearning;
 
 public class Exercise03SumLoop {
 	public static void main(String[] args) {

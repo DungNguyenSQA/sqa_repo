@@ -16,9 +16,10 @@ public class Exe16Apple extends Exe16Fruit{
 	public void getWeight(){
 		System.out.println("This is getWeight() from Apple");
 	}
-	
-	@Override
-	public void getSource(){
-		System.out.println("This is getSource() from Apple");
-	}
+
+	//Should not work
+//	@Override
+//	public void getSource(){
+//		System.out.println("This is getSource() from Apple");
+//	}
 }

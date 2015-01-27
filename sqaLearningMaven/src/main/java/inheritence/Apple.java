@@ -48,7 +48,7 @@ public class Apple extends Fruit {
 	 /* we can not override a final method, this is the way to protect a 
 	  * superclass method to be overridden in subclass  
 	  */ 
-	public final void iAmFinal(){  
-	System.out.println("I am static to Fruit"); 
-	}  
+//	public final void iAmFinal(){  
+//	System.out.println("I am static to Fruit"); 
+//	}  
 }  

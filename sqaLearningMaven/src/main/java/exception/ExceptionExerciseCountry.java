@@ -1,4 +1,6 @@
-package classExercise;
+//package classExercise; //Change for Git
+package exception;
+
 
 //Write a class CountryCheck
 //in this class write a function "boolean isUSAPresent(String arr[])"that takes String[] as parameter.

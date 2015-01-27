@@ -1,4 +1,6 @@
-package classExercise;
+//package classExercise; //Change for Git
+package homeExercise;
+
 
 public class CalculatorOverload {
 	public static int sum(int a, int b){

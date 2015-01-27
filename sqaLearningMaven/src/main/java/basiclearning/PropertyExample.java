@@ -9,20 +9,21 @@ import java.util.Properties;
 public class PropertyExample {
 	
 	public static void main(String args[]){
-		//Properties props = readTestProperties("/Users/prashantnagar/SQAClass/input/input.propeties");
-		Properties props = readTestProperties("c:\\Users\\admin\\desktop\\desktop.ini");
-		//System.out.println(props.getProperty("INR"));
-//		LocalizedResourceName=@%SystemRoot%\system32\shell32.dll,-21769
-//		IconResource=%SystemRoot%\system32\imageres.dll,-183
-		System.out.println(props.getProperty("LocalizedResourceName"));
-//		props.setProperty("USD", "abc");
-		System.out.println(props.getProperty("IconResource"));
+		Properties props = readTestProperties("/Users/prashantnagar/SQAClass/input/input.propeties");
+		System.out.println(props.getProperty("INR"));
+		System.out.println(props.getProperty("USD"));
+		props.setProperty("USD", "abc");
+		System.out.println(props.getProperty("USD"));
 	}
 	
 	public static Properties readTestProperties(String fileName) {
 		//"/Users/prashantnagar/SQAClass/input/input.propeties"		
-		Properties props = new Properties();		
-		File f = new File(fileName);
+		Properties props = new Properties();
+		//Properties needs a reader object
+		//BufferedReader needs FileReader
+		//FileReader needs File object
+		//File object needs the complete file path+name;
+		File f = new File(fileName);		
 		BufferedReader reader = null;
 		try {			
 			FileReader fileReader = new FileReader(f);

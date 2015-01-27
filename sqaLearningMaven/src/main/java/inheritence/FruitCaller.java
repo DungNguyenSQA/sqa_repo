@@ -10,7 +10,7 @@ public class FruitCaller {
 		/* this will through an exception, we can't refer a superclass object 
 		 * with a subclass reference variable 
 		 */  
-			Apple apple = new Fruit(); 
+//			Apple apple = new Fruit(); 
 		   
 
 		/* This will work fine at compile time but at run time it will through 
@@ -34,12 +34,12 @@ public class FruitCaller {
 		/*  
 		 * private methods of a superclass are not even visible to its subclass 
 		 */  
-			fruit.myPrivateMethod(); 
+//			fruit.myPrivateMethod(); 
 
 		/* This is perfectly illegal, we can not call subclass members with a 
 		 * superclass object 
 		 */  
-			fruit.iAmApple(); 
+//			fruit.iAmApple(); 
 		  
 
 		/* 
@@ -55,7 +55,7 @@ public class FruitCaller {
 		/* this is illegal, private members of superclass are not visible to a 
 		 * subclass 
 		 */  
-			apple2.myPrivateMethod(); 
+//			apple2.myPrivateMethod(); 
 		  
 
 		/* 
@@ -70,7 +70,7 @@ public class FruitCaller {
 			Fruit appFruit = new Apple();  
 			appFruit.name();  
 			appFruit.contains();
-			appFruit.iAmApple();
+//			appFruit.iAmApple();
 
 		/* 
 		 * appFruit.iAmApple(); this will throw a compile time error, 
@@ -96,7 +96,7 @@ public class FruitCaller {
 		 * hide it in subclass 
 		 */  
 			fruit.iAmFinal();  
-			apple.iAmFinal();  
+//			apple.iAmFinal();  
 			appFruit.iAmFinal();  
 
 		/* 

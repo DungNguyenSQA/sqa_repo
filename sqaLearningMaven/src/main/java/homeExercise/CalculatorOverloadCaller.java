@@ -1,4 +1,6 @@
-package classExercise;
+//package classExercise; //Change for Git
+package homeExercise;
+
 
 public class CalculatorOverloadCaller {
 	public static void main(String args[]){

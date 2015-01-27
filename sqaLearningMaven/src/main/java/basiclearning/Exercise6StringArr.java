@@ -1,4 +1,6 @@
-package homeExercise;
+//package homeExercise; //Change for Git
+package basiclearning;
+
 
 public class Exercise6StringArr {
 	

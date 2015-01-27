@@ -1,4 +1,6 @@
-package classExercise;
+//package classExercise; //Change for Git
+package inheritence;
+
 
 public final class MyRestaurant extends RestaurantAbstract {
 	

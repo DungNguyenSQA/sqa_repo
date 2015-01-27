@@ -1,4 +1,6 @@
-package classExercise;
+//package classExercise; //Change for Git
+package exception;
+
 
 //Write a class ExceptionExample in which:
 //Write a function “StringCheck” which takes a parameter of String

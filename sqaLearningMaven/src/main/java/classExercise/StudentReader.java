@@ -23,27 +23,24 @@ public class StudentReader {
 //		readStudentsFromFile() to read the above created properties file and create student object for every row.
 //		Stores all the students in an ArrayList
 //		Loop through the arrayList and print the student names
-//		Write a main class that will create the object of StudentReader and call the function readStudentsFromFile();		
+//		Write a main class that will create the object of StudentReader and call the function readStudentsFromFile();				
 		
-		
-		String fileName = "C:\\Users\\Admin\\workspace\\sqaLearningMaven\\src\\main\\java\\classExercise\\studentinfo.properties";
+		String fileName = "C:\\git_repo\\sqa_repo\\sqaLearningMaven\\src\\main\\java\\classExercise\\studentinfo.properties";
 		Properties props = readStudentFromFile(fileName);
-		System.out.println(props.getProperty("1"));
-		System.out.println(props.getProperty("2"));
-		System.out.println(props.getProperty("3"));
-		System.out.println(props.getProperty("4"));
-		System.out.println(props.getProperty("5"));
 		
-		List<StudentInfo> studentInfo = new ArrayList<StudentInfo>();
-		studentInfo.add(props.getProperty("1"));
+		List<StudentInfoOverloadedCnstr> studentInfo = new ArrayList<StudentInfoOverloadedCnstr>();
+		studentInfo.add(new StudentInfoOverloadedCnstr(1,props.getProperty("1"),123));
+		studentInfo.add(new StudentInfoOverloadedCnstr(2,props.getProperty("2"),456));
+		studentInfo.add(new StudentInfoOverloadedCnstr(3,props.getProperty("3"),789));
+		studentInfo.add(new StudentInfoOverloadedCnstr(4,props.getProperty("4"),112));
+		studentInfo.add(new StudentInfoOverloadedCnstr(5,props.getProperty("5"),113));
 		
-		
-		
-		
+		for (StudentInfoOverloadedCnstr studentinfo : studentInfo){
+			System.out.println("Student "+studentinfo.getStudentName());
+		}		
 	}
 	
 	public static Properties readStudentFromFile(String fileName){
-		
 		//"C:\\Users\\Admin\\workspace\\sqaLearningMaven\\src\\main\\java\\classExercise\\studentinfo.properties"		
 		Properties props = new Properties();		
 		File f = new File(fileName);

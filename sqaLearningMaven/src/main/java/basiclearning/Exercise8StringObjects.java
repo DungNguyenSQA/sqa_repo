@@ -1,4 +1,6 @@
-package homeExercise;
+//package homeExercise; //Change for Git
+package basiclearning;
+
 
 /*
  * Write a java program that has 3 string variables:
