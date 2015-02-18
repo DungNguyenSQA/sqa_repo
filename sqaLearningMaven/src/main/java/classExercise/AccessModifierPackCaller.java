@@ -1,6 +1,6 @@
 package classExercise;
 
-import basiclearning.AccesModifiers;
+import basicLearning.AccesModifiers;
 
 public class AccessModifierPackCaller {
 	public static void main(String args[]){

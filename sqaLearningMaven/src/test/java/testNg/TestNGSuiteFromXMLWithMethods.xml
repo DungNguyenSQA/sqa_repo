@@ -1,0 +1,1 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite thread-count="5" name="TrialTest">	<test name="ConfigurationTest">		<classes>			<class name="exercise.Search_webdriver">				<methods>					<include name="testFirst" />				</methods>			</class>		</classes>	</test></suite>

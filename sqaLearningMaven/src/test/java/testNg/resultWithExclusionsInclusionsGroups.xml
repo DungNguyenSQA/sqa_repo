@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+     <groups>
+    <run>
+      <exclude name="groupTest1"  />
+      <include name="groupTest"  />
+     
+    </run>
+  </groups>
+  <classes>
+       <class name="testng.Annotations">
+    </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,6 +1,6 @@
 package classExercise;
 
-import basiclearning.AccesModifiers;
+import basicLearning.AccesModifiers;
 
 public class AccesModifiersChild extends AccesModifiers{
 	public static void main(String args[]){
