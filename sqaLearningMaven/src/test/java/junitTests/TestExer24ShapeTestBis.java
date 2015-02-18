@@ -8,7 +8,7 @@ import homeExercise.Exercise18Triangle;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestExer24ShapeTest {	
+public class TestExer24ShapeTestBis {	
 	@Test
 	public void testCircleArea(){
 		Exercise18Circle cir = new Exercise18Circle("myCir",5);

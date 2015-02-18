@@ -7,7 +7,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import classObject.PersonOvrldCnstr;
+import classObject.PersonConstructor;
+
+//import classObject.PersonOvrldCnstr;
 
 /*
  * 1.	Write a test class for testing Person class.
@@ -22,7 +24,7 @@ import classObject.PersonOvrldCnstr;
  */
 public class TestExer23PersonTest {
 
-	private PersonOvrldCnstr varPerson;
+	private PersonConstructor varPerson;
 	static Logger log;
 
 	@BeforeClass
@@ -34,7 +36,7 @@ public class TestExer23PersonTest {
 
 	@Before
 	public void testBefore(){
-		varPerson = new PersonOvrldCnstr("John",34,"433-43-4356");
+		varPerson = new PersonConstructor("John",34,"433-43-4356");
 		System.out.println("@Before");
 		log.info("@Before");
 	}

@@ -12,12 +12,12 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(value=Parameterized.class)
-public class TestExer25PrimeNumberDataTest {
+public class TestExer25PrimeNumberDataTestPrashant {
 	
 	private int inputNumber;
 	private boolean isPrime;
 	
-	public TestExer25PrimeNumberDataTest(int inputNumber, boolean isPrime){
+	public TestExer25PrimeNumberDataTestPrashant(int inputNumber, boolean isPrime){
 		this.inputNumber = inputNumber;
 		this.isPrime = isPrime;	
 	}

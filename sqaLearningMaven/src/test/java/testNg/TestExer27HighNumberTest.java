@@ -1,9 +1,10 @@
 package testNg;
 
+import homeExercise.Exe26HighNumberInArray;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import junitTests.TestExer26HighNumber;
 
 public class TestExer27HighNumberTest {
 	/*  Exercise 27: TestNg simple: 
@@ -17,6 +18,6 @@ public class TestExer27HighNumberTest {
 	@Test 
 	public void testHighestNumber(){
 		System.out.println("Inside testHighestNumber");
-		Assert.assertEquals(6,TestExer26HighNumber.highestNumber(new int[]{1,3,2,4,6,5,0}));  
+		Assert.assertEquals(6,Exe26HighNumberInArray.highestNumber(new int[]{1,3,2,4,6,5,0}));  
 	}
 }

@@ -20,7 +20,7 @@ public class Calculator {
 		return a + b;
 	}
 	
-	public int mult(int x, int y) { 
+	public static int mult(int x, int y) { 
 		return x*y; 
 	}
 	
