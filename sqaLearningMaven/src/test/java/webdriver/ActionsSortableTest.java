@@ -40,16 +40,15 @@ public class ActionsSortableTest {
 		WebElement webEle = sortable.get(5);
 		//Remove that saved element
 		sortable.remove(5);
+		sortable.remove(6);
 		//Put the E element to that row
 		new Actions(driver).moveToElement(sortable.get(5)).build().perform();
 		//Add the saved element back to the list at the E element previous position
 		sortable.add(1, webEle);
 		//Rebuild the list
-		new Actions(driver).click(sortable.get(1)).build().perform();
+		new Actions(driver).click(sortable.get(6)).build().perform();
 		new Actions(driver).release();
-		
-		
-		
-//		new Actions(driver).clickAndHold(sortable.get(0)).moveToElement(sortable.get(3)).click(sortable.get(3)).perform();
+				
+//		new Actions(driver).clickAndHold(sortable.get(0)).moveToElement(sortable.get(3)).click(sortable.get(3)).build().perform();
 	}
 }

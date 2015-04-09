@@ -17,8 +17,8 @@ public class CollectionExample {
 
 	public static void main(String args[]){
 		CollectionExample myCollections = new CollectionExample();
-		//myCollections.arrayListExample();
-		//myCollections.hashSetExample();
+		myCollections.arrayListExample();
+		myCollections.hashSetExample();
 		myCollections.hashMapExample();;		
 	}
 	

@@ -6,7 +6,7 @@ public class StringOperations {
 		String str1 = "Java classes are funny";
 		String str2 = "are they really?";
 		
-		System.out.println("Index of ' are' in str2 is : "+str2.indexOf('b'));
+		System.out.println("Index of ' are' in str2 is : "+str2.indexOf("b"));
 		
 		String vowelStr = "vwl";
 		FuncvowelStr(vowelStr);
